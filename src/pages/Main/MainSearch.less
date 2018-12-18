@@ -1,0 +1,43 @@
+// @base:rgb(157, 104, 206);#855FA8
+@base:rgb(155, 122, 226);
+.search-container{
+  //背景色
+  // background-color: @base;
+  background: linear-gradient(top , rgb(138, 73, 223) 32% , rgb(155, 122, 226) 72%);
+background: -o-linear-gradient(top , rgb(138, 73, 223) 32% , rgb(155, 122, 226) 72%);
+background: -ms-linear-gradient(top , rgb(138, 73, 223) 32% , rgb(155, 122, 226)72%);
+background: -moz-linear-gradient(top , rgb(138, 73, 223) 32% , rgb(155, 122, 226) 72%);
+background: -webkit-linear-gradient(top , rgb(138, 73, 223) 32% , rgb(155, 122, 226) 72%);
+
+  // 内外边距 
+  padding:0.5rem;
+  //宽高
+  height:2.5rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  label{
+    color: antiquewhite;
+  }
+  img{  width: 1.5rem; height:1.5rem;}
+  .search-div{
+    border-radius: 20px;
+    width: 65%;
+    height: 2rem;
+    background-color: #fff!important;
+    padding-left: 0.3rem;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    img{
+      width: 1.3rem; height:1.3rem;
+      margin-right: 1rem;
+    }
+    
+    label{
+      color:@base;
+    }
+  }
+}

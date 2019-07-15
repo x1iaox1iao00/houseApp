@@ -18,6 +18,7 @@ export default class APP extends Component {
       <div className='app-container'>
         <Provider store={store}>
           <HashRouter>
+
             <Switch>
               <Route path='/' exact component={Nav} />
               <Route path='/login' component={Login} />
